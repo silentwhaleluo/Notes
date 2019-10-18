@@ -1,4 +1,4 @@
-- make the current folder a git repository
+/Users/alala/Documents/Notes - make the current folder a git repository
 >git init
 
 >git status
