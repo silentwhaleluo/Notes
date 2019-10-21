@@ -19,7 +19,7 @@ O (insert and add a new line ahead)
 s (delete the current charactor and insert)
 S (delete this line and insert)
 
-" replace
+" replace substitute
 :{range}s/{from}/{to}/{flag}
 r (replace the charactor at cursor)
 R (into replace mode) 
@@ -29,6 +29,7 @@ R (into replace mode)
 :s/foo/bar/g (the current line)
 :%s/foo/bar/g (all the tex)
 flag: g (global all) i (case insensitive), I (case sensitive), c (need to ask)
+:%s/a\(a-zA-Z\)/b\1/cg (change in all file, change a[a-zA-Z] to b plus [a-zA-Z], global change all and ask before change. eg. all aa, ab, aF, will be change to ba, bb, bF
 "
 
 "upper and lower case
